@@ -1,7 +1,6 @@
-//fix this function:
 function startCounting() {
-	let counter = 100;
-	while (counter <= 100) {
+	let counter = 101;
+	while (counter > 0) {
 		counter--;
 		console.log(counter);
 	}
@@ -9,4 +8,4 @@ function startCounting() {
 	return counter;
 }
 
-startCounting();
+startCounting()
